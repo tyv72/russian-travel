@@ -1,0 +1,72 @@
+@import url('./__title/place__title.css');
+@import url('./__website/place__website.css');
+@import url('./__url-heading/place__url-heading.css');
+@import url('./__link/place__link.css');
+@import url('./__text/place__text.css');
+@import url('./__image/place__image.css');
+@import url('./__paragraph/place__paragraph.css');
+
+.place {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, min-content);
+  grid-row-gap: 48px; 
+  grid-template-areas: 
+    "title website"
+    "image text";  
+  
+  margin-top: 80px;
+  grid-column-gap: 40px;  
+  
+  width: calc(100% - 396px);
+  min-width: 928px;
+}
+
+.place:first-of-type {
+  margin-top: 0;
+}
+
+/* @media screen and (max-width: 1280px) {
+  .place {
+    margin-top: 80px;
+    grid-column-gap: 40px;  
+    
+    width: calc(100% - 396px);
+    min-width: 928px;
+  }
+} */
+
+@media screen and (max-width: 1024px) {
+  .place {
+    margin-top: 80px;
+    grid-column-gap: 32px;   
+    
+    width: calc(100% - 96px);
+    min-width: 768px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    margin-top: 72px;
+    grid-column-gap: 28px;   
+    
+    width: calc(100% - 48px);  
+    min-width: 393px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .place {
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+
+    width: calc(100% - 32px);  
+    min-width: 288px;
+  }
+
+  .place:first-of-type {
+    margin-top: 64px;
+  }
+}
