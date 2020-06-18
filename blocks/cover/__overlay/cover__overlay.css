@@ -1,22 +1,4 @@
 .cover__overlay {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   text-decoration: none;  
-
-  z-index: 10;
-
-  margin: 0;
-  position: absolute;
-  right: calc((100% - 520px)/2);
-  width: 520px;
-  height: 100%;
-}
-
-@media screen and (max-width: 425px) {
-  .cover__overlay {
-    right: calc((100% - 288px)/2);
-    width: 288px;
-  }
+  z-index: 20;
 }

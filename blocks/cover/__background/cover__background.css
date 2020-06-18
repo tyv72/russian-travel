@@ -1,10 +1,8 @@
 .cover__background {
-  width: 100%; 
-  
-  opacity: 0.3;
-  transition: opacity 1s ease;
-}
-
-.cover__background:hover {
-  opacity: 0.6;    
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  
 }
