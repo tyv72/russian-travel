@@ -2,7 +2,7 @@
 
 ### Обзор
 * Интро
-* Figma
+* GitHub Pages
 
 **Интро**
 
@@ -15,7 +15,7 @@
 При верстке и создании файловой структуры проекта использовалась методология БЭМ.
 
 
-**Figma**
+**GitHub Pages**
 
-* [Ссылка на макет в Figma](https://www.figma.com/file/OyRWEjU6wBwRe1hapzQoLx/Sprint-3%3A-Russia-%2F-desktop-%2B-mobile?node-id=28503%3A0)
+* [Ссылка на GitHub Pages](https://tyv72.github.io/russian-travel/)
 
