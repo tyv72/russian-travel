@@ -14,12 +14,10 @@
   grid-template-areas: 
     "title website"
     "image text";  
+  width: 100%;
   
   margin-top: 80px;
   grid-column-gap: 40px;  
-  
-  width: calc(100% - 396px);
-  min-width: 928px;
 }
 
 .place:first-of-type {
@@ -29,20 +27,14 @@
 @media screen and (max-width: 1024px) {
   .place {
     margin-top: 80px;
-    grid-column-gap: 32px;   
-    
-    width: calc(100% - 96px);
-    min-width: 768px;
+    grid-column-gap: 32px;    
   }
 }
 
 @media screen and (max-width: 768px) {
   .place {
     margin-top: 72px;
-    grid-column-gap: 28px;   
-    
-    width: calc(100% - 48px);  
-    min-width: 393px;
+    grid-column-gap: 28px;      
   }
 }
 
@@ -51,9 +43,6 @@
     margin-top: 48px;
     display: flex;
     flex-direction: column;
-
-    width: calc(100% - 32px);  
-    min-width: 288px;
   }
 
   .place:first-of-type {
