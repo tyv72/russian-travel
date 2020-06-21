@@ -1,5 +1,4 @@
 .footer__link {
-  font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -8,11 +7,11 @@
   color: #FFFFFF;
 
   text-decoration: none;
-  list-style: none;  
+  list-style: none;
 }
 
 .footer__link:hover {
-  text-decoration: underline;
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 425px) {

@@ -13,6 +13,7 @@
 
   width: calc(100% - 96px);   
   min-width: 288px;
+  max-width: 1184px;
 }
 
 @media screen and (max-width: 768px) {
