@@ -1,4 +1,5 @@
 .cover__overlay {
   text-decoration: none;  
-  z-index: 20;
+  z-index: 20;   
+  width: 100%; 
 }

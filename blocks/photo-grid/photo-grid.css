@@ -16,10 +16,6 @@
   .photo-grid {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 14px;    
-
-    width: calc(100% - 96px);
-    
-    padding-top: 92px;
   }
 }
 

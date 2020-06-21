@@ -8,8 +8,22 @@
   text-align: center;
 
   color: #FFFFFF;
+  
   width: 360px;
   margin: 32px auto 0;
+  padding-bottom: 245px; 
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__subtitle {    
+    padding-bottom: 195px;    
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__subtitle {    
+    padding-bottom: 115px; 
+  }
 }
 
 @media screen and (max-width: 425px) {
@@ -18,5 +32,7 @@
     width: 288px;
     font-size: 14px;
     line-height: 1.14;
+
+    padding-bottom: 33px;
   }
 }

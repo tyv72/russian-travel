@@ -9,16 +9,11 @@
 
   color: #FFFFFF;
 
-  text-decoration: none;
-  margin-right: 18px;
+  text-decoration: none;  
 }
 
 .header__lang-link:hover {
   text-decoration: underline;
-}
-
-.header__lang-link:last-of-type {
-  margin-right: 0;
 }
 
 @media screen and (max-width: 425px) {

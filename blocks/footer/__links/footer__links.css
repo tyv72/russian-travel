@@ -1,10 +1,15 @@
-.footer__menu {
+.footer__links {
   display: flex;
   justify-content: space-between;
+
+  margin: 0;
+  padding-left: 0;
+
+  list-style: none;
 }
 
 @media screen and (max-width: 425px) {
-  .footer__menu {
+  .footer__links {
     flex-direction: column; 
   }
 }
