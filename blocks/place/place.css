@@ -48,14 +48,4 @@
   .place:first-of-type {
     margin-top: 64px;
   }
-
-  /* .place {
-    grid-template-columns: 1fr;
-    grid-template-rows: min-content;
-    grid-row-gap: 48px;   
-  }
-
-  .place:first-of-type {
-    margin-top: 64px;
-  } */
 }
