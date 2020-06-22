@@ -10,7 +10,7 @@
   justify-content: center;
   align-items: center;
   
-  width: calc(100% - 96px);
+  width: 100%;
   max-width: 1184px;
 
   margin: 92px auto 0;  
@@ -39,7 +39,6 @@
 
 @media screen and (max-width: 1024px) {
   .cover {    
-    width: 100%;
     margin: 92px auto 0;
   }
 }
